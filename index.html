@@ -13,6 +13,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!-- <arrowdown> -->
+<!-- <scarch logo> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- </scarch logo> -->
 </head>
 <style>
 ul {
@@ -54,34 +57,57 @@ img:hover{
     margin-top: 15px;
     font-size: 15px;
 }
-li:hover{
+.location:hover{
     border-color: aliceblue;
 }
 .hello{
     padding-left: 25px;
 }
 .scarch_bar{
-    margin-top: 25px;
+    margin-top: 20px;
     margin-left: 50px;
 }
+
 .all_button{
-    background-color: rgb(179, 184, 184);
+    background-color: rgb(254, 255, 255);
     height: 35px;
     width: 55px;
     border-radius: 5px;
     cursor: pointer;
 }
-div:hover{
+.all_button:hover{
     background-color: rgb(164, 164, 164);
     border-radius: 5px;
 }
 .all{
-    color: rgb(255, 255, 254);
+    color: rgb(7, 7, 7);
+    margin-left: 10px;  
 }
-.all_containt{
-    padding-top: 5px;
-    padding-left: 10px;
-    
+.containt{
+  margin-top: 5px;
+}
+.dropdown_img{
+margin-left: 5px;
+}
+.Scarchglass_button{
+  height: 35px;
+  width: 55px;
+  background-color: #febd69;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.scarch_glass{
+  margin-left: 15px;
+  margin-top: 5px;
+}
+.Scarchglass_button:hover{
+  background-color: #eca13e;
+}
+.scarch_input{
+  width: 450px;
+  height: 35px;
+  background-color: antiquewhite;
+  cursor: text;
 }
 </style>
 <body>
@@ -98,15 +124,25 @@ div:hover{
             <span class="sya"><b>Select your address</b></span>
       </li>
       <li>
-        <div class="scarch_bar">
-            <div class="all_button">
-                <div class="all_containt">
+        <ul class="scarch_bar">
+           <li>
+            <li class="all_button">
+              <div class="containt">
                 <span class="all">All</span>
-                <img class="" src="https://cdn.iconscout.com/icon/free/png-256/dropdown-keyboard-arrow-menu-key-direction-30471.png"
-                width="20" height="20">
+                <img class="dropdown_img" src="https://cdn-icons-png.flaticon.com/512/60/60995.png" width="10" height="10">
+                </div>
+              </li>
+           </il>
+           <li>
+            <div class="scarch_input">
             </div>
-            </div>
-        </div>
+           </li>
+           <li>
+            <div class="Scarchglass_button">
+              <img class="scarch_glass" src="https://cdn-icons-png.flaticon.com/512/49/49116.png" width="20" height="20">
+              </i></div>
+           </li>
+           </ul>
       </li>
     </ul>
 
