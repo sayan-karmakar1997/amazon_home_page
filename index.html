@@ -23,7 +23,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color:#131921;
+  background-color:#232f3e;
 }
 li {
   float: left;
@@ -76,7 +76,7 @@ img:hover{
     cursor: pointer;
 }
 .all_button:hover{
-    background-color: rgb(164, 164, 164);
+    background-color: rgb(206, 206, 206);
     border-radius: 5px;
 }
 .all{
@@ -106,11 +106,80 @@ margin-left: 5px;
 .scarch_input{
   width: 450px;
   height: 35px;
-  background-color: antiquewhite;
+  background-color: rgb(240, 236, 236);
   cursor: text;
+}
+.language_box{
+  height: 40px;
+  width: 60px;
+  background-color: #172c46;
+  border-radius: 5px;
+  border-color:transparent;
+    cursor: pointer;
+    border-style: ridge;
+    border-width: thin;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.language_box:hover{
+  border-color: rgb(255, 255, 255);
+}
+.language{
+  margin-top: 5px;
+}
+.language_dropdown{
+  margin-top: 15px;
+}
+.signe_in{
+    border-radius: 5px;
+    border-color:transparent;
+    cursor: pointer;
+    border-style: ridge;
+    border-width: thin;
+    color:aliceblue; 
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 15px;
+}
+.signe_in:hover{
+  border-color: aliceblue;
+}
+.return_order{
+    border-radius: 5px;
+    border-color:transparent;
+    cursor: pointer;
+    border-style: ridge;
+    border-width: thin;
+    color:aliceblue; 
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 15px;
+}
+.return_order:hover{
+  border-color: aliceblue;
+}
+.cart{
+    margin-top: 15px;
+    margin-left: 25px;
+    border-radius: 5px;
+    border-color:transparent;
+    cursor: pointer;
+    border-style: ridge;
+    border-width: thin;
+}
+.cart:hover{
+  border-color: aliceblue;
+}
+.cart_word{
+  color: aliceblue;
+  margin-top: 25px;
+}
+.second_navbar{
+  background-color: #243040eb;
 }
 </style>
 <body>
+  <!-- <first navbar> -->
 <div>
     <ul>
         <li><a>
@@ -140,12 +209,49 @@ margin-left: 5px;
            <li>
             <div class="Scarchglass_button">
               <img class="scarch_glass" src="https://cdn-icons-png.flaticon.com/512/49/49116.png" width="20" height="20">
-              </i></div>
+            </div>
            </li>
            </ul>
       </li>
+      <li>
+        <div class="language_box">
+            <img class="language" src="https://media.istockphoto.com/vectors/vector-flag-of-the-republic-of-india-proportion-23-the-national-flag-vector-id1051236720?k=20&m=1051236720&s=612x612&w=0&h=ATObRTHmTosADa9zaB2dQPn_VAQmG1XYH2x92kzc304="
+            width="25" height="20">
+            <img class="language_dropdown" src="https://cdn2.iconfinder.com/data/icons/50-material-design-round-corner-style/44/Dropdown_2-512.png" width="100%" height="100%">
+        </div>
+      </li>
+      <li>
+        <div class="signe_in">
+          <span>Hello, Sign in</span>
+          <br>
+          <span><b>Account & List</b></span>
+          <img  src="https://cdn2.iconfinder.com/data/icons/50-material-design-round-corner-style/44/Dropdown_2-512.png" width="25" height="25">
+        </div>
+      </li>
+      <li>
+        <div class="return_order">
+          <span>Returns</span>
+          <br>
+          <span><b>& Orders</b></span>
+        </div>
+      </li>
+      <li>
+        <div class="cart">
+          <i class="fa fa-shopping-cart" style="font-size:50px;color:aliceblue"></i>
+          <span class="cart_word"><b>Cart</b></span>
+        </div>
+      </li>
     </ul>
+<!-- <first navbar></first> -->
 
+<!-- <second navbar> -->
+  <ul class="second_navbar">
+    <li><a class="all_option">All</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#about">About</a></li>
+  </ul>
+<!-- <second navbar> -->
             
      
        
